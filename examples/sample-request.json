@@ -1,51 +1,50 @@
 {
-  "headline": "Consultor Sênior Full Stack | C# .NET Angular SQL | Liderança técnica & APIs REST | Seguros & Gov | 18+ anos",
-  "about": "Consultor Sênior Full Stack com 18+ anos em C#, .NET, Angular, SQL Server e APIs REST. Liderança técnica em seguros, governo e energia.\n\nStack: C# | .NET | ASP.NET | Angular | SQL Server | APIs REST | Git\n\nFormação: Análise e Desenvolvimento de Sistemas | MBA Gestão da Informação (em andamento)",
+  "headline": "Desenvolvedor(a) Full Stack Sênior | React, Node.js, TypeScript | APIs REST e cloud | 8+ anos",
+  "about": "Profissional de tecnologia com foco em desenvolvimento web full stack, arquitetura de APIs e entrega de produtos digitais.\n\nPrincipais competências: JavaScript | TypeScript | React | Node.js | PostgreSQL | Docker | Git\n\nFormação: Ciência da Computação",
   "experiences": [
     {
-      "title": "Consultor Sênior Full Stack",
-      "company": "JL LEMOS DIGITAL LTDA",
-      "description": "• Desenvolvimento full stack em C#, .NET, Angular e SQL Server.\n• Arquitetura de APIs REST e integrações.\n\nStack: C# | .NET | Angular | SQL Server"
+      "title": "Desenvolvedor(a) Full Stack Sênior",
+      "company": "Acme Tech Ltda",
+      "description": "• Desenvolvimento de aplicações web com React e Node.js.\n• Design e manutenção de APIs REST e integrações com serviços externos.\n• Revisão de código e apoio técnico ao time.\n\nStack: TypeScript | React | Node.js | PostgreSQL"
     },
     {
-      "title": "Desenvolvedor Full Stack Sênior",
-      "company": "Ratto Software",
-      "description": "• Sistemas web em C#, ASP.NET MVC, Angular para Icatu Seguros.\n• Liderança técnica de equipe.\n\nStack: C# | ASP.NET MVC | Angular | SQL Server"
+      "title": "Desenvolvedor(a) Full Stack Pleno",
+      "company": "InovaSoft Brasil",
+      "description": "• Implementação de features em sistemas corporativos.\n• Melhoria de performance e cobertura de testes automatizados.\n\nStack: JavaScript | React | Express | SQL"
     }
   ],
   "skills": [
-    "C#", ".NET", "Angular", "ASP.NET MVC", "ASP.NET Core",
-    "Full Stack Development", "APIs REST", "SQL Server", "JavaScript",
-    "Liderança técnica", "Git"
+    "JavaScript", "TypeScript", "React", "Node.js", "APIs REST",
+    "PostgreSQL", "Docker", "Git", "Testes automatizados", "Scrum"
   ],
-  "pinnedSkills": ["C#", ".NET", "Angular"],
+  "pinnedSkills": ["TypeScript", "React", "Node.js"],
   "openToWork": {
     "enabled": true,
     "recruitersOnly": true,
     "targetTitles": [
       "Desenvolvedor Full Stack Sênior",
-      "Consultor Full Stack",
-      "Desenvolvedor .NET Sênior"
+      "Engenheiro(a) de Software",
+      "Desenvolvedor Frontend Sênior"
     ],
     "remote": true,
-    "contract": true,
+    "contract": false,
     "fullTime": true
   },
   "activity": {
-    "postsLast90Days": 2,
-    "commentsPerWeek": 3,
-    "invitesPerWeek": 5,
-    "profileViewsPerDay": 2,
-    "searchesPerWeek": 5,
+    "postsLast90Days": 3,
+    "commentsPerWeek": 4,
+    "invitesPerWeek": 6,
+    "profileViewsPerDay": 3,
+    "searchesPerWeek": 8,
     "respondsToInMail": true,
     "creatorMode": false
   },
   "completeness": {
     "hasPhoto": true,
-    "hasBanner": false,
-    "hasFeatured": true,
-    "recommendations": 2,
-    "endorsementsTopSkills": 3
+    "hasBanner": true,
+    "hasFeatured": false,
+    "recommendations": 4,
+    "endorsementsTopSkills": 5
   },
   "targetRole": "Desenvolvedor Full Stack Sênior"
 }
