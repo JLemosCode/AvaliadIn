@@ -1,0 +1,51 @@
+{
+  "headline": "Consultor Sênior Full Stack | C# .NET Angular SQL | Liderança técnica & APIs REST | Seguros & Gov | 18+ anos",
+  "about": "Consultor Sênior Full Stack com 18+ anos em C#, .NET, Angular, SQL Server e APIs REST. Liderança técnica em seguros, governo e energia.\n\nStack: C# | .NET | ASP.NET | Angular | SQL Server | APIs REST | Git\n\nFormação: Análise e Desenvolvimento de Sistemas | MBA Gestão da Informação (em andamento)",
+  "experiences": [
+    {
+      "title": "Consultor Sênior Full Stack",
+      "company": "JL LEMOS DIGITAL LTDA",
+      "description": "• Desenvolvimento full stack em C#, .NET, Angular e SQL Server.\n• Arquitetura de APIs REST e integrações.\n\nStack: C# | .NET | Angular | SQL Server"
+    },
+    {
+      "title": "Desenvolvedor Full Stack Sênior",
+      "company": "Ratto Software",
+      "description": "• Sistemas web em C#, ASP.NET MVC, Angular para Icatu Seguros.\n• Liderança técnica de equipe.\n\nStack: C# | ASP.NET MVC | Angular | SQL Server"
+    }
+  ],
+  "skills": [
+    "C#", ".NET", "Angular", "ASP.NET MVC", "ASP.NET Core",
+    "Full Stack Development", "APIs REST", "SQL Server", "JavaScript",
+    "Liderança técnica", "Git"
+  ],
+  "pinnedSkills": ["C#", ".NET", "Angular"],
+  "openToWork": {
+    "enabled": true,
+    "recruitersOnly": true,
+    "targetTitles": [
+      "Desenvolvedor Full Stack Sênior",
+      "Consultor Full Stack",
+      "Desenvolvedor .NET Sênior"
+    ],
+    "remote": true,
+    "contract": true,
+    "fullTime": true
+  },
+  "activity": {
+    "postsLast90Days": 2,
+    "commentsPerWeek": 3,
+    "invitesPerWeek": 5,
+    "profileViewsPerDay": 2,
+    "searchesPerWeek": 5,
+    "respondsToInMail": true,
+    "creatorMode": false
+  },
+  "completeness": {
+    "hasPhoto": true,
+    "hasBanner": false,
+    "hasFeatured": true,
+    "recommendations": 2,
+    "endorsementsTopSkills": 3
+  },
+  "targetRole": "Desenvolvedor Full Stack Sênior"
+}

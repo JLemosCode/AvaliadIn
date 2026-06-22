@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "AvaliadIN Capture",
+  "version": "1.0.0",
+  "description": "Captura perfil LinkedIn para avaliação RDIS + SSI-JS no AvaliadIN",
+  "permissions": ["tabs", "scripting", "storage"],
+  "host_permissions": [
+    "https://www.linkedin.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/in/*"],
+      "js": ["extract-profile.js", "content-linkedin.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "http://localhost:3000/*",
+        "http://localhost:5173/*",
+        "http://127.0.0.1:3000/*",
+        "http://127.0.0.1:5173/*"
+      ],
+      "js": ["content-bridge.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+services:
+  avaliadin-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      LinkedIn__SessionPath: /app/Data/linkedin-storage.json
+      Ai__Enabled: ${AI_ENABLED:-false}
+      Ai__ApiKey: ${OPENAI_API_KEY:-}
+      Ai__Endpoint: ${AI_ENDPOINT:-https://api.openai.com/v1}
+      Ai__Model: ${AI_MODEL:-gpt-4o-mini}
+    volumes:
+      - linkedin-session:/app/Data
+    restart: unless-stopped
+
+  avaliadin-web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - avaliadin-api
+    restart: unless-stopped
+
+volumes:
+  linkedin-session:

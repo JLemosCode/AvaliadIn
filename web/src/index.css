@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+:root {
+  --linkedin: #0a66c2;
+  --linkedin-dark: #004182;
+  --green: #057642;
+  --gold: #915907;
+  --bg: #f3f2ef;
+  --surface: #ffffff;
+  --text: #191919;
+  --muted: #666666;
+  --border: #e0e0e0;
+  --error: #cc1016;
+  --warning-bg: #fff8e6;
+  --warning-border: #f5c518;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: var(--linkedin);
+}

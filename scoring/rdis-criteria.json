@@ -1,0 +1,20 @@
+{
+  "name": "RDIS",
+  "version": "1.0",
+  "maxScore": 100,
+  "criteria": [
+    { "id": "headline", "label": "Headline: cargo + stack + senioridade", "weight": 15 },
+    { "id": "about", "label": "Sobre: hook + stack + setores", "weight": 15 },
+    { "id": "experience", "label": "Experiências: bullets + keywords", "weight": 20 },
+    { "id": "skills", "label": "Skills limpas + top 3 fixadas", "weight": 15 },
+    { "id": "consistency", "label": "Consistência entre seções", "weight": 15 },
+    { "id": "openToWork", "label": "Open to Work configurado", "weight": 10 },
+    { "id": "education", "label": "Educação alinhada", "weight": 10 }
+  ],
+  "thresholds": {
+    "invisible": { "max": 49 },
+    "lowRank": { "min": 50, "max": 74 },
+    "discoverable": { "min": 75, "max": 89 },
+    "excellent": { "min": 90 }
+  }
+}

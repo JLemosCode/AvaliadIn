@@ -1,0 +1,14 @@
+{
+  "name": "SSI-JS",
+  "version": "1.0",
+  "maxScore": 100,
+  "pillars": [
+    { "id": "brand", "label": "Estabelecer marca profissional", "maxPoints": 25 },
+    { "id": "find", "label": "Localizar pessoas certas", "maxPoints": 25 },
+    { "id": "engage", "label": "Interagir com insights", "maxPoints": 25 },
+    { "id": "relationships", "label": "Criar relacionamentos", "maxPoints": 25 }
+  ],
+  "combinedFormula": "RDIS * 0.6 + SSI_JS * 0.4",
+  "officialSSIUrl": "https://www.linkedin.com/sales/ssi",
+  "rollingWindowDays": 90
+}
